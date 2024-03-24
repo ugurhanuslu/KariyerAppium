@@ -18,13 +18,13 @@ Before getting started, make sure you have the following requirements fulfilled:
 1. Clone this repository to your machine:
 
 ```
-git clone https://github.com/username/repo.git
+git clone https://github.com/ugurhanuslu/KariyerAppium.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd project-directory
+cd KariyerAppium
 ```
 
 3. mvn clean install
@@ -45,6 +45,11 @@ To run the tests, you can use the following Maven command:
 ```
 mvn clean verify -Dtags="@android"
 ```
+
+# Access Test Report
+
+To access test report, you can find report at: `/target/site/serenity/index.html`
+
 
 # License
 
