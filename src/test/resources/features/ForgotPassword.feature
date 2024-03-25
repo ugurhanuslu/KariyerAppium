@@ -26,7 +26,6 @@ Feature: Forgot Password
     When user click login button
     When user click forgot pass link
     When user input mail "ugurhanusl"
-    #When user click button renew pass
     When user try with unregular mail format
 
   @negative
